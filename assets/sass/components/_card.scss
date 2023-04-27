@@ -1,0 +1,45 @@
+@use "../util/" as *;
+.card {
+  background: var(--fourth-clr);
+  width: min(90vw, rem(540));
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: rem(15);
+  padding-bottom: 0;
+  font-size: rem(28);
+  border-radius: rem(10);
+  &-para {
+    color: var(--first-clr);
+    margin-bottom: rem(10);
+    &--fadeIn {
+      animation: fade-in 0.5s ease-in forwards;
+    }
+    &--fadeOut {
+      animation: fade-out 0.5s ease-out forwards;
+    }
+  }
+  &-title {
+    color: var(--second-clr);
+    letter-spacing: rem(3);
+    text-transform: uppercase;
+    font-size: rem(16);
+    margin: rem(20);
+  }
+  &-btn {
+    background-color: var(--second-clr);
+    border: 0;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: rem(64);
+    display: grid;
+    place-content: center;
+    position: relative;
+    top: 2rem;
+    &:active {
+      box-shadow: 0 0 25px var(--second-clr);
+    }
+  }
+  box-shadow: 15px 15px 100px -35px var(--text-clr);
+}
