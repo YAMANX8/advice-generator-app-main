@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 #### desktop version
-![](assets/screenshots/desktop-version.png)
+![desktop](https://github.com/YAMANX8/advice-generator-app-main/blob/master/assets/screenshots/desktop-version.png)
 #### mobile version
-![](assets/screenshots/mobile-version.png)
+![desktop2](https://github.com/YAMANX8/advice-generator-app-main/blob/master/assets/screenshots/desktop-version.png?raw=true)
 
 ### Links
 
